@@ -1,0 +1,23 @@
+{
+  "name": "hashira-placements-shamir-secret-sharing",
+  "version": "1.0.0",
+  "description": "Hashira Placements Assignment - Shamir's Secret Sharing Solution",
+  "main": "shamir_solver.js",
+  "scripts": {
+    "start": "node shamir_solver.js",
+    "test": "node shamir_solver.js"
+  },
+  "keywords": [
+    "shamir",
+    "secret-sharing",
+    "polynomial-interpolation",
+    "cryptography",
+    "lagrange",
+    "hashira"
+  ],
+  "author": "Your Name Here",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
