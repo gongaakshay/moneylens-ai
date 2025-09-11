@@ -9,15 +9,6 @@ This repository contains the complete solution for the Hashira Placements Assign
 - **Test Case 1: 3**
 - **Test Case 2: 79210893618878683638**
 
-## 📁 Files Structure
-
-```
-hashira-placements-solution/
-├── shamir_solver.js      # Main solution file
-├── package.json          # Node.js package configuration  
-├── README.md            # This documentation
-├── testcase1.json       # Test case 1 JSON file
-└── testcase2.json       # Test case 2 JSON file
 ```
 
 ## 🚀 How to Run
