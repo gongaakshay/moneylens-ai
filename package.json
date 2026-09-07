@@ -1,0 +1,34 @@
+{
+  "name": "moneylens-ai",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace moneylens-ai-api dev\" \"yarn workspace moneylens-ai-client dev\"",
+    "dev:server": "yarn workspace moneylens-ai-api dev",
+    "dev:client": "yarn workspace moneylens-ai-client dev",
+    "build": "yarn workspace moneylens-ai-client build",
+    "start": "yarn workspace moneylens-ai-api start",
+    "lint": "yarn workspace moneylens-ai-client lint && yarn workspace moneylens-ai-api lint",
+    "lint:fix": "yarn workspace moneylens-ai-client lint --fix && yarn workspace moneylens-ai-api lint:fix",
+    "test": "yarn workspace moneylens-ai-api test",
+    "test:e2e": "yarn workspace moneylens-ai-api test:e2e",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "client/**/*.{ts,tsx}": [
+      "yarn workspace moneylens-ai-client lint --fix"
+    ],
+    "server/**/*.ts": [
+      "yarn workspace moneylens-ai-api lint:fix"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7"
+  }
+}
