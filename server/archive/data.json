@@ -1,0 +1,503 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "name": "Admin",
+      "currency": "INR"
+    }
+  ],
+  "months": [
+    {
+      "id": "jan-2025",
+      "userId": 1,
+      "monthName": "January 2025",
+      "year": 2025,
+      "month": 0,
+      "income": [
+        {
+          "id": "inc-1",
+          "category": "Salary",
+          "amount": 75000,
+          "comment": "75000(Monthly salary)",
+          "entries": [
+            {
+              "id": "entry-inc-1",
+              "amount": 75000,
+              "note": "Monthly salary"
+            }
+          ]
+        },
+        {
+          "id": "inc-2",
+          "category": "Carry Forward",
+          "amount": 45000,
+          "comment": "45000(Previous month balance)",
+          "entries": [
+            {
+              "id": "entry-inc-2",
+              "amount": 45000,
+              "note": "Previous month balance"
+            }
+          ]
+        },
+        {
+          "id": "inc-3",
+          "category": "Others",
+          "amount": 8000,
+          "comment": "8000(Freelance work + cashback)",
+          "entries": [
+            {
+              "id": "entry-inc-3",
+              "amount": 8000,
+              "note": "Freelance work + cashback"
+            }
+          ]
+        }
+      ],
+      "expenses": [
+        {
+          "id": "exp-1",
+          "category": "Rent",
+          "amount": 22000,
+          "comment": "22000(Monthly rent)",
+          "entries": [
+            {
+              "id": "entry-exp-1",
+              "amount": 22000,
+              "note": "Monthly rent",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-2",
+          "category": "EMIs",
+          "amount": 18000,
+          "comment": "18000(Bike loan EMI)",
+          "entries": [
+            {
+              "id": "entry-exp-2",
+              "amount": 18000,
+              "note": "Bike loan EMI",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-3",
+          "category": "Groceries",
+          "amount": 6500,
+          "comment": "6500(Monthly groceries)",
+          "entries": [
+            {
+              "id": "entry-exp-3",
+              "amount": 6500,
+              "note": "Monthly groceries",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-4",
+          "category": "Shopping",
+          "amount": 9500,
+          "comment": "9500(Clothing + electronics)",
+          "entries": [
+            {
+              "id": "entry-exp-4",
+              "amount": 9500,
+              "note": "Clothing + electronics",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-5",
+          "category": "Food & Drinks",
+          "amount": 8000,
+          "comment": "8000(Restaurants + cafe visits)",
+          "entries": [
+            {
+              "id": "entry-exp-5",
+              "amount": 8000,
+              "note": "Restaurants + cafe visits",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-6",
+          "category": "Credit Card",
+          "amount": 12000,
+          "comment": "12000(Previous month bill)",
+          "entries": [
+            {
+              "id": "entry-exp-6",
+              "amount": 12000,
+              "note": "Previous month bill",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-7",
+          "category": "Bills & Utility",
+          "amount": 4200,
+          "comment": "4200(Electricity + water + internet + mobile)",
+          "entries": [
+            {
+              "id": "entry-exp-7",
+              "amount": 4200,
+              "note": "Electricity + water + internet + mobile",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-8",
+          "category": "Transportation",
+          "amount": 5500,
+          "comment": "5500(Fuel + public transport)",
+          "entries": [
+            {
+              "id": "entry-exp-8",
+              "amount": 5500,
+              "note": "Fuel + public transport",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-9",
+          "category": "Medical",
+          "amount": 3000,
+          "comment": "3000(Medicines + checkup)",
+          "entries": [
+            {
+              "id": "entry-exp-9",
+              "amount": 3000,
+              "note": "Medicines + checkup",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-10",
+          "category": "Personal Care",
+          "amount": 2500,
+          "comment": "2500(Salon + gym)",
+          "entries": [
+            {
+              "id": "entry-exp-10",
+              "amount": 2500,
+              "note": "Salon + gym",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-11",
+          "category": "Investment",
+          "amount": 15000,
+          "comment": "15000(Mutual funds + savings)",
+          "entries": [
+            {
+              "id": "entry-exp-11",
+              "amount": 15000,
+              "note": "Mutual funds + savings",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "exp-12",
+          "category": "Miscellaneous",
+          "amount": 7500,
+          "comment": "7500(Subscriptions + gifts + misc)",
+          "entries": [
+            {
+              "id": "entry-exp-12",
+              "amount": 7500,
+              "note": "Subscriptions + gifts + misc",
+              "tag": "neutral"
+            }
+          ]
+        }
+      ],
+      "totalIncome": 128000,
+      "totalExpense": 113700,
+      "carryForward": 14300
+    },
+    {
+      "id": "feb-2025",
+      "userId": 1,
+      "monthName": "February 2025",
+      "year": 2025,
+      "month": 1,
+      "income": [
+        {
+          "id": "inc-4",
+          "category": "Salary",
+          "amount": 75000,
+          "comment": "75000(Monthly salary)",
+          "entries": [
+            {
+              "id": "entry-inc-4",
+              "amount": 75000,
+              "note": "Monthly salary"
+            }
+          ]
+        },
+        {
+          "id": "inc-5",
+          "category": "Carry Forward",
+          "amount": 14300,
+          "comment": "14300(Carried forward from January)",
+          "entries": [
+            {
+              "id": "entry-inc-5",
+              "amount": 14300,
+              "note": "Carried forward from January"
+            }
+          ]
+        },
+        {
+          "id": "inc-6",
+          "category": "Others",
+          "amount": 5500,
+          "comment": "5500(Bonus + refund)",
+          "entries": [
+            {
+              "id": "entry-inc-6",
+              "amount": 5500,
+              "note": "Bonus + refund"
+            }
+          ]
+        }
+      ],
+      "expenses": [
+        {
+          "id": "exp-13",
+          "category": "Rent",
+          "amount": 22000,
+          "comment": "22000(Monthly rent)",
+          "entries": [
+            {
+              "id": "entry-exp-13",
+              "amount": 22000,
+              "note": "Monthly rent",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-14",
+          "category": "EMIs",
+          "amount": 18000,
+          "comment": "18000(Bike loan EMI)",
+          "entries": [
+            {
+              "id": "entry-exp-14",
+              "amount": 18000,
+              "note": "Bike loan EMI",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-15",
+          "category": "Groceries",
+          "amount": 5800,
+          "comment": "5800(Weekly groceries + vegetables)",
+          "entries": [
+            {
+              "id": "entry-exp-15",
+              "amount": 5800,
+              "note": "Weekly groceries + vegetables",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-16",
+          "category": "Shopping",
+          "amount": 6500,
+          "comment": "3500(Books + stationery)+3000(Online shopping)",
+          "entries": [
+            {
+              "id": "entry-exp-16",
+              "amount": 3500,
+              "note": "Books + stationery",
+              "tag": "want"
+            },
+            {
+              "id": "entry-exp-16b",
+              "amount": 3000,
+              "note": "Online shopping",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-17",
+          "category": "Food & Drinks",
+          "amount": 7200,
+          "comment": "7200(Dining out + food delivery)",
+          "entries": [
+            {
+              "id": "entry-exp-17",
+              "amount": 7200,
+              "note": "Dining out + food delivery",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-18",
+          "category": "Credit Card",
+          "amount": 10500,
+          "comment": "10500(January bill)",
+          "entries": [
+            {
+              "id": "entry-exp-18",
+              "amount": 10500,
+              "note": "January bill",
+              "tag": "want"
+            }
+          ]
+        },
+        {
+          "id": "exp-19",
+          "category": "Bills & Utility",
+          "amount": 3900,
+          "comment": "3900(Electricity + broadband + mobile)",
+          "entries": [
+            {
+              "id": "entry-exp-19",
+              "amount": 3900,
+              "note": "Electricity + broadband + mobile",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-20",
+          "category": "Transportation",
+          "amount": 4800,
+          "comment": "4800(Fuel + tolls + parking)",
+          "entries": [
+            {
+              "id": "entry-exp-20",
+              "amount": 4800,
+              "note": "Fuel + tolls + parking",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-21",
+          "category": "Medical",
+          "amount": 2500,
+          "comment": "2500(Pharmacy + consultation)",
+          "entries": [
+            {
+              "id": "entry-exp-21",
+              "amount": 2500,
+              "note": "Pharmacy + consultation",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-22",
+          "category": "Insurance",
+          "amount": 4500,
+          "comment": "4500(Health insurance)",
+          "entries": [
+            {
+              "id": "entry-exp-22",
+              "amount": 4500,
+              "note": "Health insurance",
+              "tag": "need"
+            }
+          ]
+        },
+        {
+          "id": "exp-23",
+          "category": "Investment",
+          "amount": 15000,
+          "comment": "15000(SIP + PPF)",
+          "entries": [
+            {
+              "id": "entry-exp-23",
+              "amount": 15000,
+              "note": "SIP + PPF",
+              "tag": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "exp-24",
+          "category": "Miscellaneous",
+          "amount": 6000,
+          "comment": "6000(Subscriptions + donations)",
+          "entries": [
+            {
+              "id": "entry-exp-24",
+              "amount": 6000,
+              "note": "Subscriptions + donations",
+              "tag": "neutral"
+            }
+          ]
+        }
+      ],
+      "totalIncome": 94800,
+      "totalExpense": 106700,
+      "carryForward": -11900
+    }
+  ],
+  "recurringExpenses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "category": "Rent",
+      "amount": 22000,
+      "note": "Monthly apartment rent",
+      "tag": "need"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "category": "Entertainment",
+      "amount": 649,
+      "note": "Netflix premium subscription",
+      "tag": "want"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "category": "Bills & Utility",
+      "amount": 1200,
+      "note": "Broadband internet service",
+      "tag": "need"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "category": "Personal Care",
+      "amount": 2500,
+      "note": "Monthly gym membership",
+      "tag": "want"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "category": "Insurance",
+      "amount": 4500,
+      "note": "Health insurance premium",
+      "tag": "need"
+    }
+  ]
+}
